@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "nodemon": "^1.18.5",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-router": "^4.3.1",
     "react-scripts": "2.0.5"
   },
   "scripts": {
@@ -26,7 +29,5 @@
   "main": "server/index.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC",
-  "proxy": "http://localhost:3005"
-
+  "license": "ISC"
 }
